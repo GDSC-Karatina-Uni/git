@@ -1,0 +1,9 @@
+For This chaper, I used basic git commands 
+
+```
+git init
+git add .
+git commit -m "first commit"
+git remote add origin <link>
+git push -u origin master
+```
