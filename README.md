@@ -16,6 +16,8 @@ The Staging Area is a file, generally contained in your Git directory, that stor
 
 ## Commands
 
+## Basic Commands
+
 ```bash
 git init
 ```
@@ -77,21 +79,6 @@ git pull
 
 This command fetches and merges changes on the remote server to your working directory.
 
-```bash
-git branch
-```
-
-This command lists all the local branches in the current repository.
-
-```bash
-git checkout <branch>
-```
-
-This command is used to switch from one branch to another.
-
-```bash
-git checkout
-```
 
 ```bash
 git diff
@@ -105,3 +92,30 @@ git checkout <file>
 
 This command unstages the file, but it preserves the file contents.
 
+## Branching And Merging
+
+```bash
+git branch
+```
+
+This command lists all the local branches in the current repository.
+
+- Sample Output
+
+    ![git branch](/images/branch.png)
+
+```bash
+git branch <branch name>
+```
+
+This command creates a new branch.
+
+- Sample Output
+
+    ![git branch](/images/create-branch.png)
+
+- Note how he * is still on the main branch.
+
+```bash
+git checkout <branch name>
+```
